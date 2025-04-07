@@ -1,0 +1,34 @@
+/*
+    declataions block
+    property: value;
+    property2: value;
+    property3: value;
+*/
+body{
+    background-color: blueviolet;
+    color: rgb(10, 101, 97)
+}
+
+hi{
+    font-style: bold;
+    font-size: 2.5em;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    } 
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30 px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#myImage{
+    margin-right: 200px;
+}

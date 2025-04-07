@@ -1,0 +1,78 @@
+body{
+    background-color: darkmagenta;
+    color: lightseagreen;
+
+}
+
+hi{
+    font-style: bold;
+    font-size: 2.5em;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    } 
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30 px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*creating buttons>*/
+
+
+div.button {
+    button1{
+        display: inline-block; /* Make it an inline-block element */
+        background-color: lightblue; /* Blue background */
+        border: none; /* Remove borders */
+        color: black; /* Black text */
+        font-style: bold; /* Make the text bold */;
+        padding: 15px 32px; /* Padding around the text */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin around the button */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+    button2{
+        display: inline-block; /* Make it an inline-block element */
+        background-color: lightblue; /* Blue background */
+        border: none; /* Remove borders */
+        color: black; /* Black text */
+        padding: 15px 32px; /* Padding around the text */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin around the button */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+        
+    button3{
+        display: inline-block; /* Make it an inline-block element */
+        background-color: lightblue; /* Blue background */
+        border: none; /* Remove borders */
+        color: black; /* Black text */
+        padding: 15px 32px; /* Padding around the text */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin around the button */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+    
+    
+}
