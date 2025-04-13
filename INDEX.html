@@ -1,4 +1,4 @@
-<!--kody roberts, 01APR2025-->
+<!--kody roberts, 09APR2025-->
 <!-- DOCTYPE THIS IS THE FIRST TAG ON THE PAGE AND IT TELLS THE BROWSER THAT THIS IS AN HTML5 PAGE -->
 <!DOCTYPE html>
 <!-- THE HTML TAG GOES NEXT -->
@@ -6,23 +6,50 @@
     <head>
         <!-- THE HEAD SECTION HAS INFO FOR THE BROWSER AND THE SEARCH ENGINE -->
         <title>CSC102 Home Page</title>
+        <script src="code.js"></script>
+        <link rel="stylesheet" href="main.css">
+
+
     </head>
     <!-- THE BODY SECTION HOLDS THE TEXT AND IMAGES THAT WE WANT TO SHOW THE USER -->
     <body>
-        <hi>
+        <h1 id="home">
             Welcome to my CSC102 Home Page
-            <br>
-            <!-- welcome in japanese -->
-            ようこそ！初めまして！
-            <br>
-            <!-- introduction in japanese -->
-            こんにちは！私の名前はロバーツ・コディです。
-        </hi>
+            
+        </h1>
         <!-- P IS THE PARAGRAGH TAG; HAS SPAVING AROUND IT BY DEFAULT -->
+         <h2>
+            <div class="buttons"> <!-- this is giving a series of buttons-->
+                <div class="button1">
+                    <a onclick = linkText()> Click me </a>
+                </div>
+                <div class="button2">
+                    <a href="Game.html">Context Page</a>
+                </div>
+                <div class="button3">
+                    <a href="boards.html">Boards Page</a>
+                </div>
+         </h2>
         <p>
             <!-- IMG IS THE IMAGE TAG -->
-            <img id="myImage" src="cvn 71.jpg">
+            <img id="myImage" src="waterfall.jpg">
         </p>
+        
+        <script>
+            // calculate the force of an object
+
+            function forceCalculation(mass, acceleration) {
+                alert("The force is " + (mass * acceleration) + " N");
+            }
+            
+            forceCalculation(10, 9.8);
+
+            alert(" running system diagnostics...");
+            alert("Checking system sta...");
+            alert("oops...");
+            alert("got it");
+            
+        </script>
     
     </body>
 </html>

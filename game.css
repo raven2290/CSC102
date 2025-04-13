@@ -4,17 +4,12 @@ body{
 
 }
 
-hi{
-    font-style: bold;
-    font-size: 2.5em;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    } 
+
 
 nav{
     height: 6000px;
-    width: 200px;
-    float: left;
+    width: 800px;
+    float: center;
     padding: 5px;
     line-height: 30 px;
 }
@@ -24,14 +19,33 @@ footer{
     margin-right: 200px;
 }
 
-/*creating buttons>*/
 
 
-div.button {
-    button1{
-        display: inline-block; /* Make it an inline-block element */
+h1{
+    font-style: bold;
+    font-size: 2.5em;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    } 
+
+p{
+    background-color: darkmagenta;
+    box-shadow: 12px 12px #410365, -10px -10px rgb(187, 8, 215);
+    border-radius: 20px;
+    color:black
+    text-align: center;
+}
+/* buttons alignment */
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button styles */
+.button1{
+        display: inline;
         background-color: lightblue; /* Blue background */
-        border: none; /* Remove borders */
         color: black; /* Black text */
         font-style: bold; /* Make the text bold */;
         padding: 15px 32px; /* Padding around the text */
@@ -40,39 +54,67 @@ div.button {
         font-size: 16px; /* Font size */
         margin: 4px 2px; /* Margin around the button */
         cursor: pointer; /* Pointer cursor on hover */
-        border-radius: 12px; /* Rounded corners */
+        border-style: groove;
+        border-color: lightseagreen;
+        outline-color: darkred;
+        background-color: darkblue;
+        border-width: thick;
         transition: background-color 0.3s ease; /* Smooth transition for hover effect */
         }
 
-    button2{
-        display: inline-block; /* Make it an inline-block element */
-        background-color: lightblue; /* Blue background */
-        border: none; /* Remove borders */
-        color: black; /* Black text */
-        padding: 15px 32px; /* Padding around the text */
-        text-align: center; /* Center the text */
-        text-decoration: none; /* Remove underline from links */
-        font-size: 16px; /* Font size */
-        margin: 4px 2px; /* Margin around the button */
-        cursor: pointer; /* Pointer cursor on hover */
-        border-radius: 12px; /* Rounded corners */
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        }
-        
-    button3{
-        display: inline-block; /* Make it an inline-block element */
-        background-color: lightblue; /* Blue background */
-        border: none; /* Remove borders */
-        color: black; /* Black text */
-        padding: 15px 32px; /* Padding around the text */
-        text-align: center; /* Center the text */
-        text-decoration: none; /* Remove underline from links */
-        font-size: 16px; /* Font size */
-        margin: 4px 2px; /* Margin around the button */
-        cursor: pointer; /* Pointer cursor on hover */
-        border-radius: 12px; /* Rounded corners */
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        }
-    
-    
+.button2{
+    display: inline;
+    background-color: lightblue; /* Blue background */
+    color: black; /* Black text */
+    font-style: bold; /* Make the text bold */;
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-style: groove;
+    border-color: lightseagreen;
+    outline-color: darkred;
+    background-color: darkblue;
+    border-width: thick;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+.button3{
+    display: inline;
+    background-color: lightblue; /* Blue background */
+    color: black; /* Black text */
+    font-style: bold; /* Make the text bold */;
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-style: groove;
+    border-color: lightseagreen;
+    outline-color: darkred;
+    background-color: darkblue;
+    border-width: thick;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+.button5{
+    display: inline;
+    background-color: lightblue; /* Blue background */
+    color: black; /* Black text */
+    font-style: bold; /* Make the text bold */;
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-style: groove;
+    border-color: lightseagreen;
+    outline-color: darkred;
+    background-color: darkblue;
+    border-width: thick;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
