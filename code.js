@@ -27,7 +27,9 @@ function playCraps()
     //sum of the 2 dice rolls
     let sum = die1 + die2;
 
-    results.innerHTML = "die1: "+ die1 + "<br> die2: "+ die2; //display the 2 dice rolls
+    //display the 2 dice rolls
+    results.innerHTML = "die1: "+ die1;
+    results.innerHTML = "die2: "+ die2;
 
     // or operator
     if (sum == 7 || sum == 11) 
@@ -49,5 +51,103 @@ function playCraps()
         results.innerHTML = "pushed!";
     }
 
+}
+
+// checking for palindrome
+function checkForPalindrome()
+{
+    //do palindrome check
+    let inputField = document.getElementById("palindromeField");
+    let results = document.getElementById("palindromeResult");
+    console.log(inputField);
     
+
+    let inputValue = inputField.value; // for testing purposes
+
+    let stringLength = inputValue.length;
+
+    if (stringLength > 0)
+    {
+        console.log("entering conditions");
+
+        let iterationCount = Math.floor(stringLength/2);
+
+        let lastCharacterIndex = inputValue.length - 1;
+        
+        let palindromeCheck = true;
+
+        //allow to continue our palindrome check
+        for(let i = 0; i < stringLength / 2; i++)
+        {
+           if (inputValue[i] !== inputValue[lastCharacterIndex - i])
+            {
+               console.log("not a palindrome");
+                results.innerHTML = "not a palindrome, my guy";
+                palindromeCheck = false;
+               break;
+            }
+        }
+        if (palindromeCheck)
+        {
+            console.log("is a palindrome");
+            results.innerHTML = "great!! this is a palindrome";
+            
+        }
+        
+    }
+
+}
+
+function userInformation()
+{
+    console.log("checking user information");
+
+    //get the values from the input fields
+    let firstNameField = document.getElementById("firstNameField"); //first name
+
+    let lastNameField = document.getElementById("lastNameField"); // last name
+
+    let results = document.getElementById("userInfoResults"); // results
+
+    let zipCode = document.getElementById("zipField"); // zip code
+
+    results.innerHTML = ""; // clear results
+
+    let firstNameValue = firstNameField.value; // first name value
+
+    let lastNameValue = lastNameField.value; // last name value
+
+    let firstLastName = firstNameValue + " " + lastNameValue; // full name
+
+    let zipCodeValue = zipCode.value; // zip code value
+     
+    console.log(firstLastName)
+
+    if(firstLastName.length > 20)
+    {
+        console.log("name is too long");
+        results.innerHTML = "name is too long, my guy";
+        return;
+    }
+    
+    let zipRegex = /^\d{5}$/ // regex for zip code
+ 
+    if (!zipRegex.test(zipCodeValue))
+    {
+        console.log("zip code is not valid");
+        results.innerHTML = "zip code must be 5 digits long, my guy";
+        return;
+    }
+
+    let zipNumValue = parseInt(zipCodeValue); // convert zip code to integer
+
+    results.innerHTML = "yooo you lost the game!!"; // display hidden message
+
+    console.log("input validated");
+
+    
+
+
+
+
 }
