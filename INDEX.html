@@ -2,7 +2,7 @@
 <!-- DOCTYPE THIS IS THE FIRST TAG ON THE PAGE AND IT TELLS THE BROWSER THAT THIS IS AN HTML5 PAGE -->
 <!DOCTYPE html>
 <!-- THE HTML TAG GOES NEXT -->
-<html>
+<html lang = "en">
     <head>
         <!-- THE HEAD SECTION HAS INFO FOR THE BROWSER AND THE SEARCH ENGINE -->
         <title>CSC102 Home Page</title>
@@ -32,24 +32,12 @@
          </h2>
         <p>
             <!-- IMG IS THE IMAGE TAG -->
-            <img id="myImage" src="waterfall.jpg">
+            <img style= "position: relative;" id="memeImage" src="waterfall.jpg">
+            
         </p>
-        
-        <script>
-            // calculate the force of an object
-
-            function forceCalculation(mass, acceleration) {
-                alert("The force is " + (mass * acceleration) + " N");
-            }
-            
-            forceCalculation(10, 9.8);
-
-            alert(" running system diagnostics...");
-            alert("Checking system sta...");
-            alert("oops...");
-            alert("got it");
-            
-        </script>
+        <button id = testButton onclick = "testFunction()"> test </button>
+        <button id = "startAnimation" onclick= "startAnimationFrame()"> start </button>
+        <button id = "stopAnimation" disabled onclick= "stopAnimationFrame()"> stop </button>
     
     </body>
 </html>

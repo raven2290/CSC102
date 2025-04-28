@@ -145,9 +145,65 @@ function userInformation()
 
     console.log("input validated");
 
-    
-
-
-
-
 }
+
+
+
+function testFunction()
+{
+    let timeoutId = setTimeout(testHello, 5000); // set timeout for 5 seconds
+    console.log("rendering test button");
+}
+
+function testHello()
+{
+    console.log("rendering test button timer");
+}
+
+const memeImage = document.getElementById("memeImage"); 
+let incrementor = 1; // increment value for the animation
+let leftPos = 0;
+
+function startAnimationFrame()
+{
+    let startButton = document.getElementById("startAnimation"); // start button
+
+    startButton.disabled = true; 
+
+    let stopButton = document.getElementById("stopAnimation"); // stop button
+    
+    stopButton.disabled = false; 
+
+
+    console.log("say cheese");
+    //animationLoop();
+    requestAnimationFrame(animationLoop); 
+}
+
+function stopAnimationFrame()
+{
+    let startButton = document.getElementById("startAnimation"); // start button
+
+    startButton.disabled = false; 
+
+    let stopButton = document.getElementById("stopAnimation"); // stop button
+
+    stopButton.disabled = true; 
+
+    incrementor = 0
+
+    console.log("helo worlds"); //helo is a a military term for helocopters
+    console.log("STOP");
+}
+
+
+function animationLoop()
+{
+    console.log("animation loop");
+    leftPos += incrementor; 
+    console.log(leftPos, memeImage);
+    memeImage.style.left = leftPos + "px"; //currently not rendering as per assignment
+
+    requestAnimationFrame(animationLoop);
+}
+
