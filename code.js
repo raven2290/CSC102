@@ -160,9 +160,9 @@ function testHello()
     console.log("rendering test button timer");
 }
 
-const memeImage = document.getElementById("memeImage"); 
-let incrementor = 1; // increment value for the animation
-let leftPos = 0;
+const memeImage = document.getElementById("memeimage"); 
+    let incrementor = 1; // increment value for the animation
+    let leftPos = 0
 
 function startAnimationFrame()
 {
@@ -199,11 +199,18 @@ function stopAnimationFrame()
 
 function animationLoop()
 {
-    console.log("animation loop");
-    leftPos += incrementor; 
-    console.log(leftPos, memeImage);
-    memeImage.style.left = leftPos + "px"; //currently not rendering as per assignment
-
+    leftPos += incrementor; // initial position of the image   
+    //let memeimage = document.getElementById("memeimage"); // meme image
+    memeimage.style.left = leftPos + "px";
+    
     requestAnimationFrame(animationLoop);
-}
 
+  /*  console.log("animation loop");
+    leftPos += incrementor; 
+    console.log(leftPos, memeimage);
+    memeimage.style.left = leftPos + "px";
+    memeimage.style.left = leftPos + "px";
+}
+    requestAnimationFrame(animationLoop);
+}*/
+}
