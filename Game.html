@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <title>CSC102 Home Page</title>
         <script src="code.js"></script>
@@ -7,26 +7,27 @@
         <link rel="Home Page" href="INDEX.html">
         <link rel="Boards Page" href="boards.html">
     </head>
-
+    <div class="buttons">
+        <div class="button1">
+            <a href = strings.html> click me </a>
+        </div>
+        <div class="button2">
+            <a href="INDEX.html">Home Page</a>
+        </div>
+        <div class="button3">
+            <a href="boards.html">Boards Page</a>
+        </div>
+        <div class="button5">
+            <a onclick="playCraps()">craps</a>
+        </div>
+   </div>
     <body>
         <h1 id="heading"> WELCOME TO MY CONTEXT PAGE </h1>
-       <div class="buttons">
-            <div class="button1">
-                <a onclick = updateText()> click me </a>
-            </div>
-            <div class="button2">
-                <a href="INDEX.html">Home Page</a>
-            </div>
-            <div class="button3">
-                <a href="boards.html">Boards Page</a>
-            </div>
-            <div class="button5">
-                <a onclick="playCraps()">craps</a>
-            </div>
-       </div>
+       
 
        <p id="crapsResults"> </p>
     </body>
+    
     
     
 </html>
