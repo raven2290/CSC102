@@ -18,8 +18,16 @@ nav{
 }
 
 footer{
-    text-align: center;
+    display: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+    text-align: right;
     margin-right: 200px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px #410365, -5px -5px rgb(187, 8, 215);
+    border-radius: 5px;
+    color:black;
 }
 
 #memeimage{
