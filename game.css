@@ -1,8 +1,17 @@
-body{
-    background-color: darkmagenta;
-    color: lightseagreen;
-
-}
+html,body{
+    height: 100%;
+    margin: 0;
+    }
+    body{
+    display:flex;
+    font-family: 'brushscript mt', cursive;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    min-height: 300px;
+    background-color: black;
+    color: #470848;
+    }
 
 
 
@@ -23,18 +32,19 @@ footer{
 
 h1{
     font-style: bold;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'brushscript mt', cursive;
     } 
 
 p{
     background-color: darkmagenta;
-    box-shadow: 12px 12px #410365, -10px -10px rgb(187, 8, 215);
-    border-radius: 20px;
-    color:black
+    box-shadow: 5px 5px #410365, -5px -5px rgb(187, 8, 215);
+    border-radius: 5px;
+    color:black;
     text-align: center;
 }
+
 /* buttons alignment */
 .buttons{
     display: flex;
@@ -43,78 +53,164 @@ p{
 }
 
 /* Button styles */
-.button1{
-        display: inline;
-        background-color: lightblue; /* Blue background */
-        color: black; /* Black text */
-        font-style: bold; /* Make the text bold */;
-        padding: 15px 32px; /* Padding around the text */
-        text-align: center; /* Center the text */
-        text-decoration: none; /* Remove underline from links */
-        font-size: 16px; /* Font size */
-        margin: 4px 2px; /* Margin around the button */
-        cursor: pointer; /* Pointer cursor on hover */
-        border-style: groove;
-        border-color: lightseagreen;
-        outline-color: darkred;
-        background-color: darkblue;
-        border-width: thick;
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        }
-
-.button2{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: groove;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    }
-
-.button3{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: groove;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    }
-
-.button5{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: groove;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+.button1{    
+    background-image: linear-gradient(to right, #da1515 25%, #2739a1  50%, #da1515  100%);
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: block;
 }
+
+.button1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
+    
+
+.button2{    
+    background-image: linear-gradient(to right, #da1515 25%, #2739a1  50%, #da1515  100%);
+    margin: 15px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: block;
+}
+
+.button2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.button3{    
+    background-image: linear-gradient(to right, #da1515 25%, #2739a1  50%, #da1515  100%);
+    margin: 5px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: block;
+}
+
+.button3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.button4{    
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: block;
+}
+
+.button4:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.button5{    
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: block;
+}
+
+.button5:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* Loading animation loop */
+#loading{
+    --size:300px;
+    --quarter: calc(var(--size) / 4);
+    width: var(--size);
+    height: var(--quarter);    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border:calc(var(--size) / 35) solid cyan;
+    border-top:none;
+    }
+
+#loading>div{
+width:calc(var(--quarter)  * .9);
+height: calc( var(--quarter) * .9);   
+background-color: cyan;    
+border-radius: 50%;
+animation-name: moveH;
+animation-duration: .7s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+#first{
+transform-origin: calc( var(--size)  / 2 - var(--quarter)  * .05);
+animation-name: jump !important;
+}
+
+@keyframes jump { 
+to { transform: rotate(180deg)}
+}
+
+@keyframes moveH { 
+to { transform: translate( calc(var(--quarter) * -1))}
+}
+
+/*
+.btn-grad {background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here *//*
+   color: #fff;
+   text-decoration: none;
+ }*/

@@ -5,8 +5,8 @@
     property3: value3;
 */
 body{
-    background-color: blueviolet;
-    color: rgb(10, 101, 97)
+    background-color: black;
+    color: rgb(16, 72, 70)
 }
 
 nav{
@@ -22,7 +22,7 @@ footer{
     margin-right: 200px;
 }
 
-#myImage{
+#memeimage{
     margin-right: 200px;
     border-style: ridge;
     border-width: thick;
@@ -37,8 +37,8 @@ h1{
     font-family:'Times New Roman', Times, serif;
     outline-style: ridge;
     outline-color: darkred;
-    background-color: darkred;
-    outline-width: thick;
+    background-color: rgb(42, 0, 42);
+    outline-width: 10px;
 
 } 
 
@@ -46,14 +46,11 @@ h2{
     font-style: bold;
     text-align: center;
     font-family:'comic sans ms', cursive, sans-serif;
-    outline-style: ridge;
-    outline-color: darkslategray;
-    background-color: darkslategray;
-    outline-width: thick;
     border-radius: 5px;
     }
 
 p{
+    position: relative;
     background-color: darkmagenta;
     box-shadow: 12px 12px #410365, -10px -10px rgb(187, 8, 215);
     border-radius: 20px;
@@ -67,77 +64,83 @@ p{
 }
 
 .button1{
-        display: inline;
-        background-color: lightblue; /* Blue background */
-        color: black; /* Black text */
-        font-style: bold; /* Make the text bold */;
-        padding: 15px 32px; /* Padding around the text */
-        text-align: center; /* Center the text */
-        text-decoration: none; /* Remove underline from links */
-        font-size: 16px; /* Font size */
-        margin: 4px 2px; /* Margin around the button */
-        cursor: pointer; /* Pointer cursor on hover */
-        border-style: ridge;
-        border-color: lightseagreen;
-        outline-color: darkred;
-        background-color: darkblue;
-        border-width: thick;
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        }
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);   
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    display: block;
+    }
+
+.button1:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
 
 .button2{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: ridge;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);   
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    display: block;
     }
 
+.button2:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
 .button3{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: ridge;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);   
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    display: block;
     }
+
+.button3:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
     
 .button4{
-    display: inline;
-    background-color: lightblue; /* Blue background */
-    color: black; /* Black text */
-    font-style: bold; /* Make the text bold */;
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-style: ridge;
-    border-color: lightseagreen;
-    outline-color: darkred;
-    background-color: darkblue;
-    border-width: thick;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%);   
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    display: block;
     }
+
+.button4:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
